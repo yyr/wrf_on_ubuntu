@@ -7,3 +7,6 @@ export LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:$LD_LIBRARY_PATH
 
 export JASPERLIB=/usr/lib/x86_64-linux-gnu
 export JASPERINC=/usr/include
+
+# export JASPERLIB=/home/yagnesh/wrf/gcc/lib
+# export JASPERINC=/home/yagnesh/wrf/gcc/include

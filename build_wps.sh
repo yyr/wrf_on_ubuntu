@@ -12,4 +12,4 @@ echo $build_option | ./configure # configure
 FILE=configure.wps
 perl -i -pe "s!-L.*-lnetcdf!-L/usr/lib/x86_64-linux-gnu/ -lnetcdff!" $FILE
 
-# ./compile 2>&1 | tee compile.log &
+./compile 2>&1 | tee compile.log &
